@@ -72,7 +72,6 @@ void clearline(void) {
 
 #endif
 
-
 void lbuffer(void) {
     cin.ignore(100, '\n');
     cout << "\n";
@@ -184,7 +183,6 @@ void mostradados(void) {
     media = media / 4;
     position(16, 17);
     cout << media;
-
 }
 
 bool pesquisa(int nmatricula) {
